@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <meta name="description" content="Weather App">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+  <body>
+   <header>
+    <h1>"Smash It" Weather App</h1>
+    </header>
+    
+    <section class="top">
+        <div class="container">
+        <form>
+            <input type="text" aria-label="Search input field" placeholder="Search for a city" autofocus autocomplete="off"/> 
+            <div class="msg"></div>
+        </form>
+        </div>
+    </section>
+    <section class="bottom">
+        <div class="container">
+            <div class="results">
+                <h2 class="cityName">
+                    <span></span>
+                    <sup></sup>
+                  </h2>
+                  
+                  <div class="cityTemp"></div>
+                  <figure>
+                    <img class="cityIcon" src="#" alt="">
+                    <figcaption class="description"></figcaption>
+                  </figure>
+            </div>
+
+            <form id="history"></form>
+        </div>
+    
+        <script src="script.js"></script>
+        <script src="app.js"></script>
+</body>
+</html>

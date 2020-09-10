@@ -1,0 +1,154 @@
+  
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'montserrat', sans-serif;
+    background: url("./images/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width:100vw;
+  }
+  
+   
+  
+  
+  input {
+    margin: 0 0 0 10%;
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid #DF8E00;
+    
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+  }
+  
+  header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+  }
+
+  h1{color: white;
+    text-align: center;
+    font-size: 5vw;
+    padding-top: 5%;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+  
+   
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.top form{
+        text-align: center;
+        margin-bottom: 2rem;
+    
+}
+.top form input{
+    font-size: 1.5rem;
+    padding: .2rem .2rem .5rem;
+    border-radius: 10px;
+    outline: none;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+    background: white right;
+
+    
+
+}
+input[type="text"]::placeholder {               
+    /* Firefox, Chrome, Opera */ 
+    text-align: left; 
+    font-size: 1em;
+}
+.top form .msg{
+    bottom: -20px;
+    max-width: 300px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: red;
+    
+    }
+.bottom .results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom .city{
+    position: relative;
+    padding: 40px 10%;
+    border-radius: 20px;
+    background: #a8a6a6;
+    margin-top: 1rem;
+    color: #3f3d3d;
+    width: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.bottom .city::after {
+    content: '';
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    bottom: -12px;
+    left: 5%;
+    z-index: -1;
+    opacity: 0.3;
+    border-radius: 20px;
+    background: #000000;
+  }
+  .bottom figcaption{
+      margin-top: 0.5rem; 
+      font-weight: bold;
+      text-align: center;
+         
+  }
+
+  .bottom .cityTemp {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  .bottom .city sup {
+    font-size: 0.7rem;
+    
+  }
+  .bottom .cityName sup {
+    padding: 0.2em 0.6em;
+    border-radius: 30px;
+    color: black;
+    background: orange;
+    display: none;
+  }
+  .bottom .cityIcon {
+    margin-top: 10px;
+    width: 100px;  
+  }
+  .container{
+      width: 75%;
+      margin:auto;  
+      
+  }
